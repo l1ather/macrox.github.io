@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #15081B, #4B285B);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.blocks{
+    display: grid;
+    grid-template-columns: 324px 324px 324px;
+    grid-template-rows: 100%;
+    gap: 190px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.block-one{
+    grid-column: 1;
+    height: 675px;
+    background: linear-gradient(to bottom, #BD00FF, #42698D);
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+.block-two{
+    grid-column: 2;
+    height: 675px;
+    background: linear-gradient(to bottom, #BD00FF, #42698D);
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+.block-three{
+    grid-column: 3;
+    height: 675px;
+    background: linear-gradient(to bottom, #BD00FF, #42698D);
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgb(21, 7, 21), rgb(42, 1, 42));
+}
+.main h1{
+    font-size: 2.25em;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.block-one h2{
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 0, 0, 0.40);
+    font-size: 2.75em;
+    color: white;
+}
+.block-two h2{
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 0, 0, 0.40);
+    font-size: 2.75em;
+    color: white;
+}
+.block-three h2{
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 0, 0, 0.40);
+    font-size: 2.75em;
+    color: white;
+}
+.block-one button{
+    background-color: #00D1FF;
+    width: 208px;
+    height: 81;
+    border: none;
+    border-radius: 12px;
+}
+.block-two button{
+    background-color: #00D1FF;
+    width: 208px;
+    height: 81;
+    border: none;
+    border-radius: 12px;
+}
+.block-three button{
+    background-color: #00D1FF;
+    width: 208px;
+    height: 81;
+    border: none;
+    border-radius: 12px;
+}
+.block-one button a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.75em;
+}
+.block-two button a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.75em;
+}
+.block-three button a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.75em;
+}
+.block-one button a span{
+    font-size: 2.7rem;
+}
+.block-two button a span{
+    font-size: 2.7rem;
+}
+.block-three button a span{
+    font-size: 2.7rem;
+}
+.block-one p{
+    font-family: 1.25em;
+    color: white;
+    border: 0.4px;
+    border-color: black;
+}
+.block-two p{
+    font-family: 1.25em;
+    color: white;
+    border: 0.4px;
+    border-color: black;
+}
+.block-three p{
+    font-family: 1.25em;
+    color: white;
+    border: 0.4px;
+    border-color: black;
+}
+.sponsor-HeroesG-logo{
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+.sponsor-HeroesG-logo .R{
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+.sponsor-HeroesG-logo .G{
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+.sponsor h3{
+    font-size: 1.75em;
+    color: white;
+    text-align: center;
+    padding-right: 150px;
+}
+.rights{
+    padding-top: 396px;
+    padding-left: 15px;
+}
+.rights p{
+    font-size: 1.25em;
+    color: white;
+}
+.rights a{
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+}
